@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700|Rubik:400,500&display=swap');
+
+
+/* ----- Background Color ------ */
+body {background-color: antiquewhite;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/*-----Font Formatting---------*/
+h1{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 900;
+
+}
+h2{font-family: Rubik, sans-serif;
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+    font-weight: 400
+        
+}
+h3{font-family: sans-serif;}
+
+p{
+  font-size: 15px;
+  font-family: Karla, sans-serif;
+    line-height: 23px;
+    margin-bottom: 20px
+
+}
+
+.wrapper {
+    width: 980px;
+    margin: 20px auto;
+}
+
+
+header {background-color: burlywood;
+    height: 100px;
+    margin-right: 125px;
+    margin-left: 125px;
+    padding: 10px;
+    
+}
+
+h1 {background-color: aquamarine;
+    text-align: center;
+}
+
+Nav {background-color: whitesmoke;
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+main {background-color: honeydew;
+    padding: 5px;
+}
+
+footer {background-color: lightgoldenrodyellow;
+    height: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px;
+    
+}
+
+
+
+
+
+

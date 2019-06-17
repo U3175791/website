@@ -2,12 +2,14 @@
 
 
 /* ----- Background Color ------ */
+
 body {background-color: antiquewhite;
     font-family: sans-serif;
     font-size: 16px;
 }
 
 /*-----Font Formatting---------*/
+
 h1{
   font-size: 50px;
   font-family: sans-serif;
@@ -48,12 +50,45 @@ h1 {background-color: aquamarine;
     text-align: center;
 }
 
-Nav {background-color: whitesmoke;
+/*------Anchor Styles------*/
+
+a{text-decoration: none;}
+
+a:hover{text-decoration: underline;}
+
+a:visited{color:lightslategrey;}
+
+a:active{color: crimson;}
+
+/*------Navigation------*/
+
+nav {background-color: whitesmoke;
     padding: 3px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
 }
+
+nav ul { }
+
+nav ul li {display: inline;
+    margin-right: 15px;
+    letter-spacing: 1.5px;
+     
+}
+
+nav ul li a{text-decoration: none;
+    color: black;
+    background-color: lightskyblue;
+    padding: 10px 15px;
+    
+        
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+    text-decoration: none;
+    }
 
 main {background-color: honeydew;
     padding: 5px;

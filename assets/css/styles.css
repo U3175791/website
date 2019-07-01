@@ -12,8 +12,8 @@ body {background-color: antiquewhite;
 
 h1{
   font-size: 50px;
-  font-family: sans-serif;
-  font-weight: 900;
+  font-family: Rubik, sans-serif;
+  font-weight: 300;
 
 }
 h2{font-family: Rubik, sans-serif;
@@ -40,10 +40,42 @@ main li{font-size: 16px;
 }
 
 
+a{text-decoration: none;}
+
+a:hover{text-decoration: underline;}
+
+a:visited{color:lightslategrey;
+}
+
+a:active{color: crimson;}
+
+
+
+
+
+/*------Main------*/
+
+main {background-color: honeydew;
+    padding: 10px;
+    padding-top: 130px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {background-color: lightgoldenrodyellow;
+    height: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px;
+    column-count: 2; 
+    
+}
+
 .wrapper {
     width: 980px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
+
 
 
 header {background-color: burlywood;
@@ -60,16 +92,12 @@ h1 {background-color: aquamarine;
     padding-bottom: 25px;
 }
 
-/*------Anchor Styles------*/
-
-a{text-decoration: none;}
-
-a:hover{text-decoration: underline;}
-
-a:visited{color:lightslategrey;
+.image {position: relative;
+    float: right;
+    
 }
 
-a:active{color: crimson;}
+
 
 /*------Navigation------*/
 
@@ -101,17 +129,7 @@ nav ul li a:hover {
     text-decoration: none;
     }
 
-main {background-color: honeydew;
-    padding: 10px;
-    padding-top: 130px;
-}
-
-footer {background-color: lightgoldenrodyellow;
-    height: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 5px;
-    
-}
 
 nav a-current-page {color: black;}
+
+

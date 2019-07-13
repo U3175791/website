@@ -3,51 +3,65 @@
 
 /* ----- Background Color ------ */
 
-body {background-color: #E6EFEF;
+body {
+    background-color: #E6EFEF;
     font-family: sans-serif;
     font-size: 1.000em;
 }
 
 /*-----Font Formatting---------*/
 
-h1{
-  font-size: 50px;
-  font-family: Rubik, sans-serif;
-  font-weight: 300;
+h1 {
+    font-size: 50px;
+    font-family: Rubik, sans-serif;
+    font-weight: 300;
 
 }
-h2{font-family: Rubik, sans-serif;
+
+h2 {
+    font-family: Rubik, sans-serif;
     margin: 0.625em 0 1.250em 0;
     font-size: 20px;
     font-weight: 400
 }
 
-h3{font-family: sans-serif;}
+h3 {
+    font-family: sans-serif;
+}
 
-p{
-  font-size: 1.000em;
-  font-family: Karla, sans-serif;
+p {
+    font-size: 1.000em;
+    font-family: Karla, sans-serif;
     line-height: 1.438em;
     margin-bottom: 1.250em;
+    text-align: justify;
 
 }
 
-main li{font-size: 1.000em;
+main li {
+    font-size: 1.000em;
     font-family: Karla, sans-serif;
     margin-left: 0.625em;
     padding-bottom: 0.625em;
-    
+
 }
 
 
-a{text-decoration: none;}
-
-a:hover{text-decoration: underline;}
-
-a:visited{color:lightslategrey;
+a {
+    text-decoration: none;
 }
 
-a:active{color: black;}
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: lightslategrey;
+}
+
+a:active {
+    color: black;
+}
 
 
 
@@ -55,20 +69,23 @@ a:active{color: black;}
 
 /*------Main------*/
 
-main {background-color: #E6EFEF;
+main {
+    background-color: #E6EFEF;
     padding: 0.625em;
     padding-top: 8.125em;
     margin-left: 0.313em;
     margin-right: 0.313em;
 }
 
-footer {background-color: #CCD1D1;
+footer {
+    background-color: #CCD1D1;
     height: 6.250em;
     margin-left: 10.500em;
     margin-right: 10.500em;
     padding: 0.313em;
-    column-count: 2; 
-    
+    column-count: 2;
+    margin-top: 80.000em;
+
 }
 
 .wrapper {
@@ -78,71 +95,143 @@ footer {background-color: #CCD1D1;
 
 
 
-header {background-color: #CCD1D1;
+header {
+    background-color: #CCD1D1;
     height: 6.250em;
     margin-right: 6.250em;
     margin-left: 13.250em;
     padding: 0.313em;
     position: fixed;
-    
+    max-width: inherit;
+
 }
 
-h1 {background-color: #CCD1D1;
+h1 {
+    background-color: #CCD1D1;
     text-align: center;
     padding-bottom: 0.700em;
 }
 
-.image {height: auto;
-    max-width: 80%; 
-    
+.imageleft {
+    height: auto;
+    max-width: 80%;
+    float: left;
+    margin-right: 3.000em;
+    padding-top: 5.000em;
+    padding-bottom: 5.000em;
+
+
 }
 
-.imagebig {height: auto;
-max-height: 50%;
-width: 10%;
+
+.imageright {
+    height: auto;
+    max-width: 80%;
+    float: right;
+    padding-top: 6.000em;
+    padding-bottom: 5.000em;
+
+}
+
+
+
+.imagebig {
+    height: auto;
+    max-height: 50%;
+    width: 5%;
     margin: 3%;
     margin-right: 50%;
+
+
+
+}
+
+.paragraphleft {
+    text-align: justify;
+    float: left;
+    max-width: 47%;
+    margin-right: auto;
+
+
+}
+
+.paragraphright {
+    text-align: justify;
+    float: right;
+    max-width: 47%;
+
+
+}
+
+
+/*-------Robin Boyd-------*/
+
+
+
+
+/*------History------*/
+
+.leftpara { float: left;
+    max-width: 50%;
+    margin-right: 0.500em;
+    padding-top: 8.000em;
+  
     
+}
 
+.rightphoto { float: right;
+    margin-left: 0.500em;
+    max-width: 44%;
+    max-height: 50.000em;
+    padding-top: 2.000em;
 }
 
 
 
-/*------Navigation------*/
 
-nav {background-color: #CCD1D1;
-    padding: 0.188em;
-    margin-left: 0.625em;
-    margin-right: 0.625em;
-    text-align: center;
-}
 
-nav ul { }
+    /*------Navigation------*/
+    nav {
+        background-color: #CCD1D1;
+        padding: 0.188em;
+        margin-left: 0.625em;
+        margin-right: 0.625em;
+        text-align: center;
+    }
 
-nav ul li {display: inline;
-    margin-right: 0.938em;
-    letter-spacing: 0.094em;
-    font-size: 0.938em;
-     
-}
+    nav ul {}
 
-nav ul li a{text-decoration: none;
-    color: black;
-    background-color: #CCD1D1;
-    padding: 0.625em 0.938em;
+    nav ul li {
+        display: inline;
+        margin-right: 0.938em;
+        letter-spacing: 0.094em;
+        font-size: 0.938em;
 
-}
+    }
 
-nav ul li a:hover {
-    background-color: #F2FAFA;
-    text-decoration: none;
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        background-color: #CCD1D1;
+        padding: 0.625em 0.938em;
+
+    }
+
+    nav ul li a:hover {
+        background-color: #F2FAFA;
+        text-decoration: none;
     }
 
 
-nav a-current-page {color: black;}
+    nav a-current-page {
+        color: black;
+    }
 
-/*------Media Queries------*/
+    /*------Media Queries------*/
 
 
-@media screen and (max-device-width:480px) and (max-device-width:768px) {.wrapper {width:98%}
-}
+    @media screen and (max-device-width:480px) and (max-device-width:768px) {
+        .wrapper {
+            width: 98%
+        }
+    }

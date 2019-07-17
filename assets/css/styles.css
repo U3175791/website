@@ -79,12 +79,16 @@ main {
 
 footer {
     background-color: #CCD1D1;
-    height: 6.250em;
+    height: 5.250em;
     margin-left: 10.500em;
     margin-right: 10.500em;
     padding: 0.313em;
+    padding-top: 1.000em;
+    padding-bottom: 0.500em;
     column-count: 2;
-    margin-top: 80.000em;
+    margin-top: 2.000em;
+    max-width: 100%;
+    clear: both;
 
 }
 
@@ -114,11 +118,11 @@ h1 {
 
 .imageleft {
     height: auto;
-    max-width: 80%;
+    max-width: 50%;
     float: left;
     margin-right: 3.000em;
-    padding-top: 5.000em;
-    padding-bottom: 5.000em;
+    padding-top: 3.000em;
+    padding-bottom: 4.000em;
 
 
 }
@@ -126,7 +130,7 @@ h1 {
 
 .imageright {
     height: auto;
-    max-width: 80%;
+    max-width: 50%;
     float: right;
     padding-top: 6.000em;
     padding-bottom: 5.000em;
@@ -141,6 +145,7 @@ h1 {
     width: 5%;
     margin: 3%;
     margin-right: 50%;
+    text-align: center;
 
 
 
@@ -149,7 +154,7 @@ h1 {
 .paragraphleft {
     text-align: justify;
     float: left;
-    max-width: 47%;
+    max-width: 48%;
     margin-right: auto;
 
 
@@ -181,7 +186,7 @@ h1 {
 
 .rightphoto { float: right;
     margin-left: 0.500em;
-    max-width: 44%;
+    max-width: 45%;
     max-height: 50.000em;
     padding-top: 2.000em;
 }

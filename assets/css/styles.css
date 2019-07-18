@@ -169,10 +169,6 @@ h1 {
 }
 
 
-/*-------Robin Boyd-------*/
-
-
-
 
 /*------History------*/
 
@@ -194,8 +190,7 @@ h1 {
 
 
 
-
-    /*------Navigation------*/
+ /*------Navigation------*/
     nav {
         background-color: #CCD1D1;
         padding: 0.188em;
@@ -232,7 +227,7 @@ h1 {
         color: black;
     }
 
-    /*------Media Queries------*/
+/*------Media Queries------*/
 
 
     @media screen and (max-device-width:480px) and (max-device-width:768px) {
